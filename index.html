@@ -1,70 +1,29 @@
 <!DOCTYPE html>
 <html>
-
 <head>
 
 <title>OSL</title>
+
 <link rel="icon" type="image/png" href="https://img.collegepravesh.com/2013/07/NIT-SURATHKAL-LOGO.png"/>
-<style>
+<link rel="stylesheet" type="text/css" href="style1.css">
+<script src="https://apis.google.com/js/platform.js" async defer></script>
+<script src='script.js'></script>
 
-body {
+<meta name="google-signin-client_id" content="1013151817453-9jhndj93v2dmtl8117vn3b5r2h8de5d4.apps.googleusercontent.com">
 
-background-image:url("https://udemy-images.udemy.com/course/750x422/525814_ea64.jpg");
- background-position: center top;
-background-color:black;
 
-background-size: 1000px 500px;
-    background-repeat: no-repeat;
-    
-}
-
-h1 {
-position: absolute;
-    left:20px;
-    top: 400px;
-height:80px;
-width:1300px;
-background-color:LAVENDERBLUSH;
-font-size:60px;
-text-align:center;
-color:  black
-
-}
-h2{
-position: absolute;
-    left:30px;
-    top: 500px;
-font-size:50px;
-
-color:white
-}
-h3 {
-position: absolute;
-    left:500px;
-    top: 1200px;
-font-size:60px;
-text-align: center;
-color:white
-}
-h3 {
-position: absolute;
-    left:575px;
-    top: 1200px;
-font-size:60px;
-text-align: center;
-color:white
-}
-</style>
 </head>
-
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
 <body>
+<img src="https://udemy-images.udemy.com/course/750x422/525814_ea64.jpg" width="100%">
+<div ng-app="" id='name'>
+  <p><input type="text" ng-model="name" id='input' placeholder="Enter your name here..."></p>
+  <p ng-bind="name"></p>
+</div>
 
-<h1 style="font-family:Lucida Calligraphy;"><i>Welcome to OSL(Open Source Library)</i></h1>
-<h2 style="font-family:calibri;">Are you a person who is enjoying engineering life in NITK but suddenly realised that you also have to prepare for quizzes,midsems and endsems?<br>Need some help in finding the course plans, ebooks,previous year papers.<br>DON'T worry we're here just for that<br><br>Browse whatever you want from our huge database and literally find everything that is required for your Academics<br><br><u>FIRST YEAR TEXTS</u></h2>
-<h3><a href="https://drive.google.com/open?id=0BzmHzfeX8Vc0fkdSMjZWV1VfMURfbm8wQWpWTXJsZGhJTkZRNnRXa3pmdWQ4c3RtTE1nWHc">EC110</a><br><br><a href="https://drive.google.com/open?id=0BzmHzfeX8Vc0fmFoSWt2SWxuQnpQQmJqQzJIdnVtcFJ4bC1qYkU2aW9yT0Z3X1dpT1N1LUE">CO110</a><br><br><a href="https://drive.google.com/open?id=0BzmHzfeX8Vc0fjhTeVRjMThDUGUtTi1VVnNvOVVwWTRwZy1XczBReV9IU1B3RFUtQ0QycFE">CY110</a><br><br><a href="https://drive.google.com/open?id=0BzmHzfeX8Vc0fkdHNXdjbzZjNFFwTTJUOWF6NXdyRnl2YlBubGlHUm1jZEk5REFBb0ZiWGM">ME110</a><br><br><a href="https://drive.google.com/open?id=0BzmHzfeX8Vc0fmNEcUMxNmItUkdCNUozTno0RkJmdmdDSkIzTXBGbElXZ1hIS0ljZXB5QVE">EE110</a><br><br><a href="https://drive.google.com/open?id=0BzmHzfeX8Vc0fml1WFZKSWNXdlJEcjNjZUhhZXBvSFpNemVQUG05aHBiY29zTF9DREE5aDQ">PH110</a><br><br><a href="https://drive.google.com/open?id=0BzmHzfeX8Vc0flV5UXB5WkYzNHdwTHRpaC1wSWxHbERmdWdERVJPQVJBelFGQ044eHdpUm8">MATHS</a><br><br><a href="https://drive.google.com/open?id=0BzmHzfeX8Vc0fjFMY2EwSWRpVXJna0hGZElGa1NIalZqQzJvNlRCU1Z1ekN5SVJIajdjc0k">EG</a><br><br><a href="https://drive.google.com/open?id=0BzmHzfeX8Vc0flVDdlBaRzFqakg0eUQzb3kzZXhsalB2aXZVNnUyUzBWZy11U2g2bFVCeDg">AM110</a><br><br><a href="https://drive.google.com/open?id=0BzmHzfeX8Vc0fmI4bS1QQkNGdHRDd2prcnNlMmYwX0tHOUkxbWxEM0lXS2c0bEkxSFpLN2s">Question Papers</a></h3>
-<p></p>
+<div class="g-signin2" data-onsuccess="onSignIn"></div>
 
-
+<a href="1.html">click here</a>
 
 </body>
 </html>
