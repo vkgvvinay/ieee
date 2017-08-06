@@ -47,6 +47,14 @@ Need some help in finding the course plans, ebooks,previous year papers.
 <li><button href="https://drive.google.com/open?id=0BzmHzfeX8Vc0fmI4bS1QQkNGdHRDd2prcnNlMmYwX0tHOUkxbWxEM0lXS2c0bEkxSFpLN2s">Question Papers</button>
 </ul>
 </div>
-
+<a href="#" onclick="signOut();">Sign out</a>
+<script>
+  function signOut() {
+    var auth2 = gapi.auth2.getAuthInstance();
+    auth2.signOut().then(function () {
+      console.log('User signed out.');
+    });
+  }
+</script>
 </body>
 </html>
