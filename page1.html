@@ -50,7 +50,7 @@ Need some help in finding the course plans, ebooks,previous year papers.
 <a href="https://vkgvvinay.github.io/" onclick="signOut();">Sign out</a>
 <script>
   function signOut() {
-    var auth2 = gapi.auth2.getAuthInstance();
+    var auth2 = gapi.auth2.getAuthInstance().disconnect();
     auth2.signOut().then(function () {
       console.log('User signed out.');
     });
