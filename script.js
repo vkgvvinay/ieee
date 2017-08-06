@@ -11,9 +11,6 @@ function onSignIn(googleUser) {
    window.location.href="https://vkgvvinay.github.io/page1.html";
 }
 
-var logout = func(){
-document.location.href = "https://www.google.com/accounts/Logout?continue=https://appengine.google.com/_ah/logout?continue=https://vkgvvinay.github.io/";
-}
 
 http.createServer(function (req, res) {
   var q = url.parse(req.url, true);
